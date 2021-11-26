@@ -12,7 +12,7 @@ export default function Input({showDiv}) {
                 setSearchWord(e.target.value);
             }}
             />
-
+            {/* Show text on change in input */}
             <h1 data-testid="displaySearch">{searchWord}</h1>
 
             {
